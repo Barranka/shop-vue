@@ -13,6 +13,7 @@ import NotFound from '@/pages/404'
 //Routering
 export default new Router({
 	// mode: 'history',
+	scrollBehavior: () => ({ x: 0, y: 0 }),
 	routes: [
 		{
 			path: '/',
