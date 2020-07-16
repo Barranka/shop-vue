@@ -27,7 +27,6 @@ export default {
 	max-width: 48%;
 	text-align: center;
 }
-
 p {
 	font-size: 22px;
 }
